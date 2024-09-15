@@ -1,0 +1,33 @@
+.port {
+    padding: 50px;
+    background-color: #ECEBEB;
+}
+.intro {
+    text-align: center;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+@media screen and (max-width: 600px) {
+    .port {
+        padding: 25px;
+        background-color: #ECEBEB;
+        margin-bottom: 0.5rem;
+
+    }
+    .intro {
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 600px) {
+    .port {
+        padding: 34px;
+        background-color: #ECEBEB;
+    }
+    .intro {
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+}

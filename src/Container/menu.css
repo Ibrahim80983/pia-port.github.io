@@ -1,0 +1,109 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+#menu{
+    z-index: 999;
+    display: none;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+/* Styling the hamburger button */
+.menu-btn {
+    position: inherit;
+    /* width: 30px;
+    height:px; */
+    cursor: pointer;
+    z-index: 999;
+}
+
+.menu-btn__burger {
+    /* width: 100%; */
+    /* height: 3rem; */
+    /* border-radius: 2px; */
+    transition: all 0.3s ease;
+}
+
+
+.menu-btn.open .menu-btn__burger {
+    background-color: transparent;
+}
+
+#dropdown-menu {
+    margin-top: 5rem;
+    top: 0;
+    right: 0;
+    height: auto;
+    width: 30%;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    background-color: #ECEBEB;
+    border-top: 1px solid #fff;
+    /* z-index: 1rem; */
+    /* transition: opacity 0.3s ease;
+    opacity: 1; */
+}
+
+#dropdown-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: auto;
+    padding: 2rem;
+}
+
+#dropdown-menu ul li {
+    margin: 10px 0;
+    gap: 1rem;
+    color: #000;
+    /* padding-bottom: 1rem; */
+}
+
+#dropdown-menu ul li a {
+    display: block;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px){
+    #menu{
+        z-index: 999;
+        display: block;
+        padding: 1rem;
+        font-size: 2rem;
+    }  
+    #dropdown-menu {
+        margin-top: 5rem;
+        top: 0;
+        right: 0;
+        height: auto;
+        width: 30%;
+        background-color: transparent;
+        border: none;
+        position: fixed;
+        background-color: rgba(0, 0, 0);
+        border-top: 1px solid #fff;
+        /* z-index: 1rem; */
+        /* transition: opacity 0.3s ease;
+        opacity: 1; */
+    }
+    #dropdown-menu ul {
+        padding: 2rem;
+    }
+    
+    #dropdown-menu ul li {
+        margin: 10px 0;
+        gap: 1rem;
+        color: #000;
+        /* padding-bottom: 1rem; */
+    }
+    
+    #dropdown-menu ul li a {
+        font-size: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+}

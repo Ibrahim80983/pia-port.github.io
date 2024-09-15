@@ -1,0 +1,64 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: rgb(236, 235, 235);
+    align-items: center;
+    font-family: var(--my-font-family);
+}
+.Header ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    gap: 2rem;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Header a {
+    text-decoration: none;
+    color: black;
+}
+.Header h1 {
+    font-weight: 800;
+    font-size: 25px;
+}
+@media screen and (max-width: 600px){
+
+    .Header {
+        padding: 10px 25px;
+        font-family: var(--my-font-family);
+    }
+    .Header h1 {
+        font-weight: 400;
+        font-size: 12.5px;
+    }
+    .Header ul {
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 600px){
+    .Header {
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 34px;
+        background-color: rgb(236, 235, 235);
+        align-items: center;
+        font-family: var(--my-font-family);
+    }
+    .Header ul {
+        display: flex;
+        gap: 0.7rem;
+        list-style: none;
+        gap: 1rem;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .Header a {
+        text-decoration: none;
+        color: black;
+    }
+    .Header h1 {
+        font-weight: 520;
+        font-size: 25px;
+    }
+}

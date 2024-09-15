@@ -1,0 +1,58 @@
+footer {
+    padding: 50px;
+    text-align: center;
+    line-height: 3rem;
+}
+span {
+gap: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+.socials_reach {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.update {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.socials_reach a {
+    text-decoration: none;
+}
+@media screen and (max-width: 600px){
+    footer {
+        padding: 25px;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    span {
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    }
+    .socials_reach {
+        gap: 0.5rem;
+        display: flex;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+    
+    }
+    .update {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+    }
+       
+}
