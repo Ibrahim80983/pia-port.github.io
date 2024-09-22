@@ -4,6 +4,8 @@ import firstWeb  from'./images/firstweb.png'
 import Card from './Card'
 import School from './images/Screenshot 2024-09-09 130424.png'
 import portfolio from './images/Screenshot 2024-09-10 064647.png'
+// const customStyle = {flexDirection : "row-reverse"}
+
 
 export default function Portfolio1() {
   return (
@@ -22,6 +24,7 @@ export default function Portfolio1() {
       goto="Visit Website"
     />
     <Card 
+    // style={customStyle}
     name="School Website"
     firstWeb={School}
     describe="Developed and designed a user-friendly school website, 

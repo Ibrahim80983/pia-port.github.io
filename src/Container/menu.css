@@ -1,13 +1,12 @@
-/* Basic styling for the body */
-body {
-    font-family: 'Manrope', sans-serif;
-}
 
 #menu{
-    z-index: 999;
     display: none;
-    padding-bottom: 1rem;
     position: relative;
+    overflow: auto;
+    transition: all 1s;
+    color: #818181;
+
+
 }
 
 /* Styling the hamburger button */
@@ -20,6 +19,7 @@ body {
 }
 
 .menu-btn__burger {
+    font-size: 15px;
     /* width: 100%; */
     /* height: 3rem; */
     /* border-radius: 2px; */
@@ -32,19 +32,23 @@ body {
 }
 
 #dropdown-menu {
-    margin-top: 5rem;
+    padding: 1rem;
     top: 0;
-    right: 0;
+    right: -32px;
     height: auto;
-    width: 30%;
     background-color: transparent;
     border: none;
-    position: fixed;
+    position: absolute;
     background-color: #ECEBEB;
     border-top: 1px solid #fff;
+    transition: 0.5s;
     /* z-index: 1rem; */
     /* transition: opacity 0.3s ease;
     opacity: 1; */
+}
+#dropdown-menu span {
+    font-size: 1rem;
+    float: left;
 }
 
 #dropdown-menu ul {
@@ -58,29 +62,31 @@ body {
 }
 
 #dropdown-menu ul li {
-    margin: 10px 0;
+    /* margin: 2px 0; */
     gap: 1rem;
-    color: #000;
+    /* color: #000; */
+    color: #818181;
+
     /* padding-bottom: 1rem; */
 }
-
+#menu a:hover, #menu a:focus {
+    color: #f1f1f1;
+}
 #dropdown-menu ul li a {
+    color: #818181;
+
     display: block;
     text-decoration: none;
 }
 @media screen and (max-width: 600px){
     #menu{
         z-index: 999;
-        display: block;
+        display: inline;
         padding: 1rem;
         font-size: 2rem;
     }  
     #dropdown-menu {
-        margin-top: 5rem;
         top: 0;
-        right: 0;
-        height: auto;
-        width: 30%;
         background-color: transparent;
         border: none;
         position: fixed;

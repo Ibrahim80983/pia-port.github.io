@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./menu.css";
-import Hamburger from "./images/hamburger.svg";
-import Close from "./images/close.svg";
 
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,31 +9,29 @@ const Menu = () => {
   };
 
   return (
-      <div id='menu'>
-          <div className={`menu-btn ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+      <div id='menu' >
+          
 
-              <div className="menu-btn__burger">
+              <div className="menu-btn__burger" onClick={toggleMenu}>
                   {
-                      menuOpen ? <img src={Close} alt='' onClick={() => setMenuOpen(true)} /> : 
-                      <img src={Hamburger} alt='' onClick={() => setMenuOpen(false)} />
+                      menuOpen ?   <i class="fa-solid fa-xmark" onClick = {() => setMenuOpen(false)}></i> 
+                      : <i class="fa-solid fa-bars" onClick = {() => setMenuOpen(true)}></i>
+                        
                   }
-
-              </div>
-          </div>
+                </div>
 
 
-          {
-              menuOpen && (
-                  <div id="dropdown-menu">
+        
+                <div id="dropdown-menu" style={{ width : menuOpen ? "110%" : "0%" }}>
+                    <span><i class="fa-solid fa-xmark" onClick = {() => setMenuOpen(false)}></i></span>
                       <ul>
+
                           <li><a href="#pic_des" onClick={() => setMenuOpen(false)}><b>About</b></a></li>
                           <li><a href="#portfolio" onClick={() => setMenuOpen(false)}><b>Portfolio</b></a></li>
                           <li><a href="#skills" onClick={() => setMenuOpen(false)}><b>Skills</b></a></li>
                           <li><a href="#contact" onClick={() => setMenuOpen(false)}><b>Contact</b></a></li>
                       </ul>
                   </div>
-              )
-          }
 
       </div >
   );
