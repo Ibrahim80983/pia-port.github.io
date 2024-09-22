@@ -17,7 +17,7 @@ export default function Profile() {
                      staying updated with the latest industry trends."</p>
                     <div className='button_icon'>
                         <a href='https://github.com/Ibrahim80983' target='_blank' rel="noopener noreferrer" className='button'><i class="fa-brands fa-github"></i>GitHub</a>
-                        <a href='google' className='button'><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                        <a href= 'https://www.linkedin.com/in/ibrahim-ayanwumi-0b566026a' target="_blank" rel="noopener noreferrer" className='button'><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
                         <a href='mailto:ibrahimayanwumi661@gmail.com' className='button'><i class="fa-regular fa-envelope"></i>Email</a>
                     </div>
         </div>

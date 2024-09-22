@@ -8,9 +8,8 @@ export default function Skills() {
     <div className='skills' id="skills">
         <Skill 
         title="Technical Skills"
-        des="Proficient in front-end and back-end web development, including vanilla
-         coding with React, HTML, CSS, JavaScript, and Python. Experienced with frameworks
-          such as Django and skilled in database management using SQL and MongoDB. Adept
+        des="Proficient in front-end web development, including vanilla
+         coding with React, HTML, CSS and JavaScript. Adept
            at responsive design, version control with Git, and deploying websites on 
            cloud platforms. Also, an electrical engineer with a solid foundation in 
            circuit design and embedded systems."

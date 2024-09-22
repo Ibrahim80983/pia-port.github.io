@@ -8,8 +8,13 @@
 }
 .Contact h1 {
     text-align: center;
-    margin-bottom: 3rem;
 }
+.Contact h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
 .Contact form{
     width: 62%;
 }

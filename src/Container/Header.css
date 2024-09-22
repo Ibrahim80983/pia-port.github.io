@@ -18,6 +18,16 @@
     text-decoration: none;
     color: black;
 }
+.Header a:hover {
+    color: white;
+    background-color: #477EFF;
+    padding: 8px 10px;
+    border-radius: 12px;
+}
+.Header a:active {
+    background-color: orange;
+    color: white;
+}
 .Header h1 {
     font-weight: 800;
     font-size: 25px;
