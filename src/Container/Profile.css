@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 80px 50px;
-    font-family: var(--my-font-family);
+    font-family: "Raleway", sans-serif;
 }
 .pic_des img {
     width: 30%;
@@ -25,7 +25,7 @@
     font-weight: 400;
 }
 .pic_des h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 2rem;
 }
 .button_icon {
@@ -50,7 +50,9 @@
     font-size: 20px;
 }
 
-
+.button:hover {
+    background-color: orange;
+}
 
  @-webkit-keyframes tilt-in-top-1 {
     0% {

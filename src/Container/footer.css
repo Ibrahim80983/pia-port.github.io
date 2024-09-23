@@ -2,6 +2,8 @@ footer {
     padding: 50px;
     text-align: center;
     line-height: 3rem;
+    font-family: "Dancing Script", cursive;
+
 }
 span {
 gap: 1rem;
@@ -14,13 +16,11 @@ flex-direction: row;
     gap: 1rem;
     display: flex;
     justify-content: center;
-    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 400;
 
 }
 .update {
-    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
 }

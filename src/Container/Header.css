@@ -4,7 +4,7 @@
     padding: 20px 50px;
     background-color: rgb(236, 235, 235);
     align-items: center;
-    font-family: var(--my-font-family);
+    font-family: "Raleway", sans-serif;
 }
 .Header ul {
     display: flex;
@@ -29,8 +29,9 @@
     color: white;
 }
 .Header h1 {
-    font-weight: 800;
-    font-size: 25px;
+    font-weight: 1000;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
 }
 @media screen and (max-width: 600px){
 

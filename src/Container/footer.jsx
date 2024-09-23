@@ -20,7 +20,7 @@ export default function Footer() {
             >
               <i class="fa-brands fa-square-github"></i>
             </a>
-            <a href="#sm">
+            <a href="https://www.instagram.com/ibrahimayanwumi" target="_blank" rel="noopener noreferrer">
               <i class="fa-brands fa-square-instagram"></i>
             </a>
             <a
@@ -32,7 +32,7 @@ export default function Footer() {
             </a>
           </span>
         </p>
-        <p className="update">© {currentYear} Ayanwumi Ibrahim</p>
+        <p className="update">© {currentYear} Pia all rights reserved</p>
       </footer>
     </div>
   );

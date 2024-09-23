@@ -6,7 +6,10 @@
     background: #D9D9D9;
     border-radius: 32px;
     margin-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+
 }
+#first
 
 .flex-row {
     flex-direction: row-reverse;
@@ -26,7 +29,6 @@
 }
 .portfolio1 h1 {
     margin-bottom: 1rem;
-    font-family: "Raleway", sans-serif;
     font-size: 30px;
 
 }
@@ -37,6 +39,9 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
+}
+.portfolio1 a:hover{
+    background-color: orange;
 }
 @media screen and (max-width: 600px) {
     .portfolio1 {

@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header/>
       <Profile/>
-      <div className='port'>
+      <div className='port' id='port'>
         <div className='intro'>
         <h1>Portfolio</h1>
         <p>A collection of my most recent works</p>

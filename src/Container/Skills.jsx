@@ -3,7 +3,7 @@ import Skill from './Skill.jsx'
 
 export default function Skills() {
   return (
-    <div className='compound'>
+    <div className='compound' id='compound'>
         <h1 className='alone' style={{textAlign:"center", fontFamily:'"Raleway", sans-serif ', marginBottom: "3rem"}}>Skills</h1>
     <div className='skills' id="skills">
         <Skill 
