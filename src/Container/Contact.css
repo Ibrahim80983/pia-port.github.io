@@ -17,11 +17,17 @@
 
 .Contact form{
     width: 62%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .input_collection {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+form .button {
+    margin: 30px auto;
 }
 .input_collection div {
     width: 45%;
